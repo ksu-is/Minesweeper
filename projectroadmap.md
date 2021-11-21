@@ -9,8 +9,8 @@ Related code: https://github.com/kying18/minesweeper
 
 Sprint 2:
 - [x] Start coding 
-- [ ] Make updates with commit messages with Github desktop
-- [ ] Commit at least 6 code changes of significant size (not just a spelling error) with a comment explaing what was done (be specific)
+- [x] Make updates with commit messages with Github desktop
+- [x] Commit at least 6 code changes of significant size (not just a spelling error) with a comment explaing what was done (be specific)
 - [x] Keep track of progress on projectroadmap.md 
 
 Sprint 3:
