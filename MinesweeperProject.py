@@ -18,16 +18,49 @@ def make_mines(mines):
 
 # Reavels the mines touching the accessed space's number
 def border_nums(board, x, y):
-    numMines = 0
+    numMine = 0
     
     # Top-left Space
     if (x > 0 and y > 0):
         c = (x-1, y-1)
         if c in mines:
-            numMines += 1
+            numMine += 1
 
     # Top Space
     if (x > 0):
         c = (x-1, y)
         if c in mines:
-            numMines += 1
+            numMine += 1
+
+     # Top-right Space
+    if (x > 0 and y < 4):
+        c = (x-1, y+1)
+        if c in mines:
+            numMine += 1
+    # Left
+    if (y > 0):
+        c = (x, y-1)
+        if c in mines:
+            numMine += 1
+    # Right
+    if (y < 4):
+        c = (x, y+1)
+        if c in mines:
+            numMine += 1
+    # Bottom-left
+    if (x < 4 and y > 0):
+        c = (x+1, y-1)
+        if c in mines:
+            numMine += 1
+    # Bottom
+    if (x < 4):
+        c = (x+1, y)
+        if c in mines:
+            numMine += 1
+    # Bottom-right
+    if (x < 4 and y < 4):
+        c = (x+1, y+1)
+        if c in mines:
+            numMine += 1
+
+   
