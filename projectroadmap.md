@@ -14,7 +14,7 @@ Sprint 2:
 - [x] Keep track of progress on projectroadmap.md 
 
 Sprint 3:
-- [ ] Continue coding & refining
+- [x] Continue coding & refining
 - [ ] Test code
 - [ ] Create one PowerPoint slide to introduce the project & upload it. Slide needs to include: members, title, tag line, and 1-2 screenshots.
 - [ ] Upload PPT slide in D2L
