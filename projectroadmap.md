@@ -15,9 +15,9 @@ Sprint 2:
 
 Sprint 3:
 - [x] Continue coding & refining
-- [ ] Test code
-- [ ] Create one PowerPoint slide to introduce the project & upload it. Slide needs to include: members, title, tag line, and 1-2 screenshots.
-- [ ] Upload PPT slide in D2L
+- [x] Test code
+- [x] Create one PowerPoint slide to introduce the project & upload it. Slide needs to include: members, title, tag line, and 1-2 screenshots.
+- [x] Upload PPT slide in D2L
 
 Final Part:
 - [ ] Answer questions below (see "Final Project Questions")
