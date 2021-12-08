@@ -41,3 +41,19 @@ def MakeMines(a,z):
                 disp[y+1][x] += 1 
 
     return disp
+
+def GenerateMap(a):
+    disp = [['-' for row in range(a)] for column in range(a)]
+    return disp
+
+def OpenMap(map):
+    for row in map:
+        print(" ".join(str(cell) for cell in row))
+        print("")
+
+def WinCheck(map):
+    for row in map:
+        for cell in row:
+            if cell == '-':
+                return False
+    return True
