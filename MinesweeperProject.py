@@ -57,3 +57,20 @@ def WinCheck(map):
             if cell == '-':
                 return False
     return True
+
+def ContinueGame(score):
+    print("Your score: ", score)
+    isContinue = input("Try again? (y/n) :")
+    if isContinue == 'n':
+        return False
+    return True
+def Game():
+    GameStatus = True
+    while GameStatus:
+        difficulty = input("Select difficulty (e, h):")
+        if difficulty.lower() == 'e':
+            a = 5
+            z = 3
+        else:
+            a = 8
+            z = 20
