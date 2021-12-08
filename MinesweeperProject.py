@@ -74,3 +74,35 @@ def Game():
         else:
             a = 8
             z = 20
+        
+        minesweeper_map = MakeMines(a, z)
+        player_map = GenerateMap(a)
+        score = 0
+        while True:
+            if WinCheck(player_map) == False:
+                print("Enter the block you want to open:")
+                x = input("X (1 to 5) :")
+                y = input("Y (1 to 5) :")
+                x = int(x) - 1 # 0 based indexing
+                y = int(y) - 1 # 0 based indexing
+                if (minesweeper_map[y][x] == 'X'):
+                    print("Game Over!")
+                    OpenMap(minesweeper_map)
+                    GameStatus = ContinueGame(score)
+                    break
+                else:
+                    player_map[y][x] = minesweeper_map[y][x]
+                    OpenMap(player_map)
+                    score += 1
+ 
+            else:
+                OpenMap(player_map)
+                print("Congratulations! You have Won!")
+                GameStatus = ContinueGame(score)
+                break
+# Opening the Minesweeper Program
+if __name__ == "__main__":
+    try:
+        Game()
+    except KeyboardInterrupt:
+        print('\nThe Concludes the Game. Bye!')

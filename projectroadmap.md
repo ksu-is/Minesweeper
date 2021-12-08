@@ -20,9 +20,9 @@ Sprint 3:
 - [x] Upload PPT slide in D2L
 
 Final Part:
-- [ ] Answer questions below (see "Final Project Questions")
-- [ ] Prepare final presentation
-- [ ] Practice presentation
+- [x] Answer questions below (see "Final Project Questions")
+- [x] Prepare final presentation
+- [x] Practice presentation
 - [ ] Schedule & record presentation in the Teams Project channel
 - [ ] Post a screenshot & link it
 - [ ] Upload PPT here
