@@ -23,9 +23,9 @@ Final Part:
 - [x] Answer questions below (see "Final Project Questions")
 - [x] Prepare final presentation
 - [x] Practice presentation
-- [ ] Schedule & record presentation in the Teams Project channel
-- [ ] Post a screenshot & link it
-- [ ] Upload PPT here
+- [x] Schedule & record presentation in the Teams Project channel
+- [x] Post a screenshot & link it
+- [x] Upload PPT here
 
 Final Project Questions
 Project Presentations in Teams -> present in Teams Project Presentations channel (Project Presentations or Projects if there is no Project Presentations channel).
